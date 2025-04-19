@@ -847,3 +847,9 @@ RegisterNetEvent("DP:OpenMenu")
 AddEventHandler("DP:OpenMenu", function()
   OpenEmoteMenu()
 end)
+
+-- Fixed bug By mxrtinn2609_.  --
+
+-- Cierra el menú correctamente y arregla el bug de que la camara no funcione
+SetNuiFocus(false, false)
+ClearPedTasksImmediately(PlayerPedId())
