@@ -6,6 +6,8 @@ ES
 
 Destaca por su **soporte completo para props (objetos)** que aparecen automáticamente con muchos emotes, y la posibilidad de realizar algunas animaciones **mientras caminas**, ofreciendo un nivel de detalle y realismo superior.
 
+[SHOWCASE SCRIPT](https://www.youtube.com/watch?v=K_IpIFxCJJw)
+
 ---
 
 ## 📦 Requisitos
@@ -89,6 +91,9 @@ EN
 Bring your FiveM server interactions and roleplay to life with X-Emotes! This resource offers you an extensive collection of **over 350 emotes** and animations, carefully selected to enrich your players' experience.
 
 It stands out for its **full support for props (objects)** that automatically appear with many emotes, and the ability to perform some animations **while walking**, offering a higher level of detail and realism.
+
+[SHOWCASE SCRIPT](https://www.youtube.com/watch?v=K_IpIFxCJJw)
+
 
 ---
 
