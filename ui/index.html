@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Emotes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="emote-container">
+        <div class="header">
+            <div class="logo">
+                <h1>CHICAGO<span>EMOTES</span></h1>
+            </div>
+            <div class="categories-container">
+                <div class="category-selector">
+                    <div class="current-category" id="current-category">
+                        <i class="material-icons">home</i>
+                        <span>Inicio</span>
+                        <i class="material-icons dropdown-icon">arrow_drop_down</i>
+                    </div>
+                    <div class="category-dropdown" id="category-dropdown">
+                        <div class="category-item" data-category="all">
+                            <i class="material-icons">home</i>
+                            <span>Inicio</span>
+                        </div>
+                        <div class="category-item" data-category="favorites">
+                            <i class="material-icons">bookmark</i>
+                            <span>Favoritos</span>
+                        </div>
+                        <div class="category-item" data-category="dances">
+                            <i class="material-icons">directions_walk</i>
+                            <span>Bailes</span>
+                        </div>
+                        <div class="category-item" data-category="props">
+                            <i class="material-icons">shopping_cart</i>
+                            <span>Objetos</span>
+                        </div>
+                        <div class="category-item" data-category="gangsigns">
+                            <i class="material-icons">person</i>
+                            <span>Gestos</span>
+                        </div>
+                        <div class="category-item" data-category="shared">
+                            <i class="material-icons">group</i>
+                            <span>Compartidos</span>
+                        </div>
+                        <div class="category-item" data-category="expressions">
+                            <i class="material-icons">tag_faces</i>
+                            <span>Expresiones</span>
+                        </div>
+                        <div class="category-item" data-category="walks">
+                            <i class="material-icons">directions_run</i>
+                            <span>Caminatas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="BUSCAR EMOTE...">
+                    <i class="material-icons search-icon">search</i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="emotes-grid" id="emotes-container">
+        </div>
+        
+        <div class="footer">
+            <button id="close-btn" class="nav-btn" title="Cerrar">
+                <i class="material-icons">close</i>
+            </button>
+        </div>
+    </div>
+    
+    <div id="context-menu" class="context-menu">
+        <div class="context-item" id="add-favorite">
+            <i class="material-icons">star</i>
+            <span>Guardar en Favoritos</span>
+        </div>
+    </div>
+    
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
